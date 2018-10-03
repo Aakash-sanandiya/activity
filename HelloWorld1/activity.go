@@ -1,9 +1,13 @@
 package HelloWorld1
 
-import (
+import ("fmt"
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
+
+func init(){
+	fmt.Println("init in z.go")
+}
 
 // MyActivity is a stub for your Activity implementation
 type MyActivity struct {
